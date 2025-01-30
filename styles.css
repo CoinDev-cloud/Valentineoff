@@ -64,14 +64,14 @@ header {
 }
 
 h1, h2 {
-    color: #ff0048;
+    color: #cc0033; /* Darker red for contrast */
     font-size: 4.2em;
     text-align: center;
     font-weight: 900;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.4);
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* More defined shadow */
     display: block;
-    padding: 12px 24px;
-    border-radius: 12px;
+    padding: 10px;
+    border-radius: 10px;
 }
 
 button {
