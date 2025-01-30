@@ -3,34 +3,35 @@ body {
     margin: 0;
     padding: 0;
     text-align: center;
-    background: linear-gradient(180deg, #ff99cc, #ff4d79);
+    background: linear-gradient(180deg, #ff80aa, #ff3366);
     color: #fff;
 }
 
 header {
-    background: linear-gradient(90deg, #ff0066, #ff3366);
+    background: linear-gradient(90deg, #ff0048, #ff3366);
     color: white;
-    padding: 50px 20px;
-    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.5);
+    padding: 60px 20px;
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.4);
     font-weight: bold;
     display: flex;
     flex-direction: column;
     align-items: center;
     border-bottom: 5px solid #ff1a75;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .logo {
-    width: 120px;
+    width: 140px;
     display: block;
     margin: 0 auto 15px;
     border-radius: 15px;
-    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.3);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.4);
     animation: pulse 2s infinite;
 }
 
 @keyframes pulse {
     0% { transform: scale(1); }
-    50% { transform: scale(1.05); }
+    50% { transform: scale(1.08); }
     100% { transform: scale(1); }
 }
 
@@ -41,25 +42,26 @@ header {
 }
 
 .about, .features, .buy {
-    margin: 40px auto;
-    padding: 30px;
+    margin: 50px auto;
+    padding: 40px;
     width: 80%;
-    background: rgba(255, 255, 255, 0.95);
+    background: linear-gradient(180deg, #fff, #ffe6ec);
     color: black;
-    border-radius: 20px;
-    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
+    border-radius: 25px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3);
     transition: transform 0.3s ease-in-out;
 }
 
 .about:hover, .features:hover, .buy:hover {
-    transform: scale(1.05);
+    transform: scale(1.07);
 }
 
 h1, h2 {
-    color: white;
+    color: #ff0048;
     font-size: 3em;
     text-align: center;
-    font-weight: bold;
+    font-weight: 900;
+    text-shadow: 3px 3px 6px rgba(0, 0, 0, 0.3);
 }
 
 ul {
@@ -68,61 +70,62 @@ ul {
 }
 
 li {
-    font-size: 20px;
-    padding: 8px;
+    font-size: 22px;
+    padding: 10px;
 }
 
 button {
-    background: linear-gradient(90deg, #ff0066, #ff3366);
+    background: linear-gradient(90deg, #ff0048, #ff3366);
     color: white;
-    padding: 15px 30px;
+    padding: 18px 36px;
     border: none;
-    border-radius: 10px;
+    border-radius: 12px;
     cursor: pointer;
-    font-size: 20px;
+    font-size: 22px;
     font-weight: bold;
     transition: 0.3s;
-    margin: 10px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    margin: 15px;
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 button:hover {
     background: linear-gradient(90deg, #e6005c, #d9004a);
-    transform: scale(1.1);
+    transform: scale(1.12);
 }
 
 footer {
-    background: linear-gradient(90deg, #ff0066, #ff3366);
+    background: linear-gradient(90deg, #ff0048, #ff3366);
     color: white;
-    padding: 25px;
+    padding: 30px;
     position: relative;
     width: 100%;
     bottom: 0;
-    border-top: 5px solid #ff1a75;
+    border-top: 6px solid #ff1a75;
+    box-shadow: 0 -8px 16px rgba(0, 0, 0, 0.2);
 }
 
 .social-buttons {
     display: flex;
     justify-content: center;
-    margin-top: 20px;
+    margin-top: 25px;
 }
 
 .social-buttons a {
     text-decoration: none;
-    margin: 0 12px;
+    margin: 0 15px;
     display: inline-block;
     background: white;
-    padding: 12px 25px;
-    border-radius: 12px;
-    color: #ff0066;
+    padding: 14px 28px;
+    border-radius: 14px;
+    color: #ff0048;
     font-weight: bold;
     transition: 0.3s;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 6px 12px rgba(0, 0, 0, 0.3);
 }
 
 .social-buttons a:hover {
-    background: #ff0066;
+    background: #ff0048;
     color: white;
-    transform: scale(1.1);
+    transform: scale(1.15);
 }
 
