@@ -1,66 +1,44 @@
-body {
-    font-family: Arial, sans-serif;
-    margin: 0;
-    padding: 0;
-    text-align: center;
-    background-color: #ffe6f2;
-    color: #333;
-}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Official Valentine's Day Coin</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <img src="ValentinesDay.jpg" alt="Valentine's Day Coin Logo" class="logo">
+        <h1>Official Valentine's Day Coin</h1>
+        <p>The cryptocurrency of love and connection.</p>
+    </header>
+    
+    <section class="about">
+        <h2>About the Coin</h2>
+        <p>Celebrate love in a new way with the Official Valentine's Day Coin – a digital token designed to spread love and appreciation worldwide.</p>
+    </section>
 
-header {
-    background: #ff4d79;
-    color: white;
-    padding: 20px;
-}
+    <section class="features">
+        <h2>Why Choose Our Coin?</h2>
+        <ul>
+            <li>💖 Secure Blockchain Technology</li>
+            <li>🌹 Limited Edition Minting</li>
+            <li>🎁 Perfect for Gifting</li>
+            <li>🚀 Fast & Affordable Transactions</li>
+        </ul>
+    </section>
+    
+    <section class="buy">
+        <h2>Get Your Coin Now</h2>
+        <button>Buy Now</button>
+    </section>
 
-.logo {
-    width: 150px;
-    display: block;
-    margin: 0 auto 20px;
-}
-
-.about, .features, .buy {
-    margin: 30px auto;
-    padding: 20px;
-    width: 80%;
-    background: white;
-    border-radius: 10px;
-    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-}
-
-h1, h2 {
-    color: #ff3366;
-}
-
-ul {
-    list-style: none;
-    padding: 0;
-}
-
-li {
-    font-size: 18px;
-    padding: 5px;
-}
-
-button {
-    background: #ff3366;
-    color: white;
-    padding: 10px 20px;
-    border: none;
-    border-radius: 5px;
-    cursor: pointer;
-    font-size: 18px;
-}
-
-button:hover {
-    background: #e62e5c;
-}
-
-footer {
-    background: #ff4d79;
-    color: white;
-    padding: 10px;
-    position: fixed;
-    width: 100%;
-    bottom: 0;
-}
+    <footer>
+        <div class="social-buttons">
+            <a href="https://t.me/yourtelegram" target="_blank">Join Telegram</a>
+            <a href="https://x.com/yourxpage" target="_blank">Follow on X</a>
+        </div>
+        <p>&copy; 2025 Official Valentine's Day Coin. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
