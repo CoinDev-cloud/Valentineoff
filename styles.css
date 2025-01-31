@@ -64,11 +64,11 @@ header {
 }
 
 h1, h2 {
-    color: #cc0033; /* Darker red for contrast */
+    color: #cc0033;
     font-size: 4.2em;
     text-align: center;
     font-weight: 900;
-    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5); /* More defined shadow */
+    text-shadow: 4px 4px 8px rgba(0, 0, 0, 0.5);
     display: block;
     padding: 10px;
     border-radius: 10px;
